@@ -7,6 +7,9 @@
         <title>Contacto - Barberia Alura</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">   
     </head>
     <body>
         <header>
@@ -22,7 +25,7 @@
             </div>
         </header> 
         <main>
-            <form action="">
+            <form action="" class="formulario">
                 <label for="nombreapellido">Nombre y apellido</label>
                 <input type="text" name="" id="nombreapellido" class="input-padron" required placeholder="Nombre y apellido">
                 <label for="correoelectronico">Correo electronico</label>
@@ -30,7 +33,7 @@
                 <label for="telefono">Telefono</label>
                 <input type="text" name="" id="telefono" class="input-padron" required placeholder="(+54) 011 XXXX XXXX">
                 <label for="mensaje">Mensaje</label>
-                <textarea name="" id="" cols="70" rows="10"></textarea>
+                <textarea class="formulario" name="" id="" cols="70" rows="10"></textarea>
                 <fieldset>
                     <legend>¿Cómo le gustaria que lo contactemos?</legend>
                     <label for="radio-email"><input type="radio" value = "email" name="contacto" id="email">Email</label>                    
@@ -48,7 +51,7 @@
                 <label><input type="checkbox" class="checkbox" checked>¿Le gustaria recibir novedades de la Barberia Alura?</label>
                 <input type="submit" name="" id="enviar" value="Enviar formulario" class="enviar">
             </form>
-                <table>
+                <table class="formulario">
                     <thead>
                         <tr>
                             <th>Dia</th>
